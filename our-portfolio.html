@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Portfolio – Etherical Media Digital Wellness Properties</title>
+  <meta name="description" content="Discover the full Etherical Media portfolio — Moment Mantra, Flipin' Choice, Somnuscape, Uncool Rule, K9 Mind Hub and Somnacare. A growing family of digital wellness and lifestyle tools." />
+  <meta name="keywords" content="Etherical Media portfolio, digital wellness tools, moment mantra, flipinchoice, somnuscape, uncool rule, k9 mind hub, somnacare, wellness apps UK" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.ethericalmedia.com/our-portfolio.html" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Etherical Media Portfolio","url":"https://www.ethericalmedia.com/our-portfolio.html","description":"The complete portfolio of Etherical Media digital wellness and lifestyle properties.","publisher":{"@type":"Organisation","name":"Etherical Media","url":"https://www.ethericalmedia.com"}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    :root{--bg:#0d1128;--bg2:#131830;--bg3:#191f3a;--card:rgba(255,255,255,0.03);--border:rgba(200,169,110,0.18);--border-s:rgba(200,212,232,0.1);--text-h:#eef2ff;--text-b:#8fafc8;--text-m:#5a6a8a;--gold:#c8a96e;--gold-lt:#e8c98e;--shadow:rgba(0,0,0,0.4);--success:#80d4a8;}
+    html{scroll-behavior:smooth;}
+    body{font-family:'Jost',sans-serif;background:var(--bg);color:var(--text-b);min-height:100vh;overflow-x:hidden;}
+    #starCanvas{position:fixed;inset:0;pointer-events:none;z-index:0;}
+    .page{position:relative;z-index:1;width:100%;max-width:980px;margin:0 auto;padding:0 28px 80px;display:flex;flex-direction:column;align-items:center;gap:48px;}
+    .site-nav{width:100%;display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:1px solid var(--border-s);}
+    .nav-logo{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:300;color:var(--text-h);text-decoration:none;letter-spacing:0.06em;}
+    .nav-logo em{color:var(--gold);font-style:italic;}
+    .nav-links{display:flex;gap:24px;list-style:none;flex-wrap:wrap;}
+    .nav-links a{font-size:0.62rem;font-weight:400;letter-spacing:0.22em;text-transform:uppercase;color:var(--text-m);text-decoration:none;transition:color 0.2s;}
+    .nav-links a:hover,.nav-links a.active{color:var(--gold);}
+    header{width:100%;text-align:center;padding:40px 0 0;}
+    .eyebrow{font-size:0.65rem;font-weight:400;letter-spacing:0.45em;text-transform:uppercase;color:var(--gold);opacity:0.75;margin-bottom:16px;}
+    h1{font-family:'Playfair Display',serif;font-size:clamp(2.2rem,6vw,4rem);font-weight:300;line-height:1.1;color:var(--text-h);margin-bottom:18px;}
+    h1 em{color:var(--gold);font-style:italic;display:block;}
+    .header-intro{font-size:1.05rem;font-weight:300;color:var(--text-b);line-height:1.85;max-width:580px;margin:0 auto;}
+    .header-divider{width:40px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:24px auto 0;}
+    .intro-card{width:100%;background:var(--bg2);border:1px solid var(--border-s);border-radius:22px;padding:48px;box-shadow:0 4px 32px var(--shadow);position:relative;overflow:hidden;}
+    .intro-card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+    .section-label{font-size:0.6rem;font-weight:500;letter-spacing:0.4em;text-transform:uppercase;color:var(--gold);opacity:0.75;margin-bottom:12px;}
+    h2{font-family:'Playfair Display',serif;font-size:clamp(1.6rem,4vw,2.6rem);font-weight:300;color:var(--text-h);margin-bottom:18px;margin-top:36px;line-height:1.2;text-align:center;}
+    h2:first-of-type{margin-top:0;}
+    h2 em{color:var(--gold);font-style:italic;}
+    p{font-size:0.93rem;font-weight:300;color:var(--text-m);line-height:1.9;margin-bottom:16px;}
+    p:last-child{margin-bottom:0;}
+    p strong{color:var(--text-b);font-weight:500;}
+    .section-divider{width:100%;height:1px;background:linear-gradient(90deg,transparent,var(--border-s),transparent);margin:28px 0;}
+    .section-eyebrow{font-size:0.65rem;font-weight:400;letter-spacing:0.45em;text-transform:uppercase;color:var(--gold);opacity:0.75;margin-bottom:16px;text-align:center;}
+
+    /* Property cards */
+    .property{width:100%;background:var(--bg2);border:1px solid var(--border-s);border-radius:22px;padding:48px;box-shadow:0 4px 32px var(--shadow);position:relative;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;}
+    .property::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+    .property.coming::before{opacity:0.5;}
+    .property-meta{display:flex;flex-direction:column;gap:16px;}
+    .property-icon{font-size:3rem;}
+    .property-badge{display:inline-block;font-size:0.55rem;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;padding:4px 12px;border-radius:50px;}
+    .badge-live{background:rgba(100,200,150,0.1);border:1px solid rgba(100,200,150,0.25);color:var(--success);}
+    .badge-soon{background:rgba(200,169,110,0.08);border:1px solid rgba(200,169,110,0.2);color:var(--gold);}
+    .property-name{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:300;color:var(--text-h);line-height:1.1;}
+    .property-name em{color:var(--gold);font-style:italic;}
+    .property-url{font-size:0.7rem;color:var(--gold);letter-spacing:0.15em;opacity:0.8;}
+    .property-tagline{font-family:'Playfair Display',serif;font-size:1rem;font-style:italic;color:var(--text-b);}
+    .property-visit{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:linear-gradient(135deg,rgba(200,169,110,0.15),rgba(200,169,110,0.07));border:1px solid rgba(200,169,110,0.4);border-radius:50px;color:var(--gold-lt);text-decoration:none;font-size:0.7rem;font-weight:500;letter-spacing:0.2em;text-transform:uppercase;transition:all 0.25s;width:fit-content;}
+    .property-visit:hover{background:linear-gradient(135deg,rgba(200,169,110,0.25),rgba(200,169,110,0.14));border-color:var(--gold);}
+    .property-content h3{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:400;color:var(--gold-lt);margin-bottom:10px;margin-top:20px;}
+    .property-content h3:first-child{margin-top:0;}
+    .property-content p{font-size:0.9rem;margin-bottom:12px;}
+    .feature-list{list-style:none;display:flex;flex-direction:column;gap:8px;margin-top:10px;}
+    .feature-list li{font-size:0.86rem;font-weight:300;color:var(--text-m);padding-left:18px;position:relative;line-height:1.6;}
+    .feature-list li::before{content:'✦';position:absolute;left:0;color:var(--gold);font-size:0.6rem;top:3px;}
+
+    /* Philosophy card */
+    .philosophy-card{width:100%;background:var(--bg2);border:1px solid var(--border-s);border-radius:22px;padding:52px 48px;box-shadow:0 4px 32px var(--shadow);position:relative;overflow:hidden;}
+    .philosophy-card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+    .criteria-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin-top:24px;}
+    .criterion{background:var(--bg3);border:1px solid var(--border-s);border-radius:12px;padding:22px 18px;transition:all 0.3s;}
+    .criterion:hover{border-color:var(--border);transform:translateY(-2px);}
+    .criterion-num{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:300;color:var(--gold);opacity:0.3;line-height:1;margin-bottom:8px;}
+    .criterion-title{font-family:'Playfair Display',serif;font-size:0.95rem;font-weight:400;color:var(--text-h);margin-bottom:6px;}
+    .criterion-text{font-size:0.82rem;font-weight:300;color:var(--text-m);line-height:1.65;}
+
+    footer{width:100%;text-align:center;padding-top:40px;border-top:1px solid var(--border-s);}
+    .footer-logo{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:300;color:var(--text-h);margin-bottom:8px;}
+    .footer-logo em{color:var(--gold);font-style:italic;}
+    .footer-nav{display:flex;gap:18px;justify-content:center;list-style:none;margin-bottom:16px;flex-wrap:wrap;}
+    .footer-nav a{font-size:0.62rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--text-m);text-decoration:none;transition:color 0.2s;}
+    .footer-nav a:hover{color:var(--gold);}
+    .footer-copy{font-size:0.6rem;color:var(--text-m);opacity:0.28;letter-spacing:0.08em;}
+
+    @media(max-width:700px){
+      .property{grid-template-columns:1fr;gap:28px;padding:36px 22px;}
+      .intro-card,.philosophy-card{padding:36px 22px;}
+      .nav-links{display:none;}
+    }
+  </style>
+</head>
+<body>
+<canvas id="starCanvas"></canvas>
+<div class="page">
+
+  <nav class="site-nav">
+    <a href="index.html" class="nav-logo">Etherical <em>Media</em></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="our-portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="digital-wellness.html">Digital Wellness</a></li>
+      <li><a href="work-with-us.html">Work With Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <p class="eyebrow">✦ Our Properties ✦</p>
+    <h1>The Etherical Media<em>Portfolio</em></h1>
+    <p class="header-intro">Six carefully chosen properties — each one addressing a distinct dimension of human wellbeing, united by the same unwavering commitment to quality, purpose and beautiful design.</p>
+    <div class="header-divider"></div>
+  </header>
+
+  <!-- Philosophy intro -->
+  <div class="intro-card">
+    <p class="section-label">Our Portfolio Philosophy</p>
+    <h2 style="text-align:left;margin-top:0;">How We <em>Choose</em> What to Build</h2>
+    <p>Every Etherical Media property begins with a simple but demanding question: <strong>does the world genuinely need this?</strong> Not does a market exist for it, not can we rank for it, not will it generate traffic — but will it make a real, meaningful difference to the people who use it?</p>
+    <p>That question filters out the vast majority of ideas. What remains is a portfolio of tools and resources that we are genuinely proud of — each one addressing a real human need with genuine research, exceptional design and honest purpose.</p>
+    <div class="section-divider"></div>
+    <div class="criteria-grid">
+      <div class="criterion"><p class="criterion-num">01</p><p class="criterion-title">Real Human Need</p><p class="criterion-text">The property must address a genuine, well-evidenced human need — not a manufactured one.</p></div>
+      <div class="criterion"><p class="criterion-num">02</p><p class="criterion-title">Research Grounded</p><p class="criterion-text">Content and tools must be informed by credible research in relevant fields — psychology, neuroscience, behavioural science.</p></div>
+      <div class="criterion"><p class="criterion-num">03</p><p class="criterion-title">Design Excellence</p><p class="criterion-text">The experience must be beautiful, intuitive and genuinely pleasurable to use — not just functional.</p></div>
+      <div class="criterion"><p class="criterion-num">04</p><p class="criterion-title">Responsible Scope</p><p class="criterion-text">We only add properties we can maintain to the same standard as the rest of the portfolio.</p></div>
+    </div>
+  </div>
+
+  <!-- Live properties -->
+  <div style="width:100%;text-align:center;">
+    <p class="section-eyebrow">✦ Live Now</p>
+    <h2>Our Live <em>Properties</em></h2>
+  </div>
+
+  <!-- Moment Mantra -->
+  <div class="property">
+    <div class="property-meta">
+      <span class="property-icon">🌙</span>
+      <span class="property-badge badge-live">Live Now</span>
+      <p class="property-name">Moment<em>Mantra</em></p>
+      <p class="property-url">momentmantra.com</p>
+      <p class="property-tagline">"Three words. One breath. A mantra made for you."</p>
+      <a class="property-visit" href="https://www.momentmantra.com" target="_blank" rel="noopener">Visit Site →</a>
+    </div>
+    <div class="property-content">
+      <h3>What It Does</h3>
+      <p>Moment Mantra is a free AI-powered daily mantra generator. Users enter three honest words describing how they feel in this moment and receive a unique, personalised mantra crafted specifically for them — acknowledging their actual emotional state and offering warm, compassionate encouragement.</p>
+      <h3>What Makes It Different</h3>
+      <p>Unlike generic affirmation apps that serve the same phrases to everyone, every Moment Mantra is created fresh and is completely unique. The approach is rooted in Acceptance and Commitment Therapy and Compassion-Focused psychology — meeting people where they genuinely are rather than simply overwriting difficult feelings with positivity.</p>
+      <h3>Key Features</h3>
+      <ul class="feature-list">
+        <li>AI-generated personalised mantras in real time</li>
+        <li>Rooted in neuroscience and ACT psychology</li>
+        <li>Free to use — no account required</li>
+        <li>In-depth articles on mantra science and mindfulness</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Flipin Choice -->
+  <div class="property">
+    <div class="property-meta">
+      <span class="property-icon">🪙</span>
+      <span class="property-badge badge-live">Live Now</span>
+      <p class="property-name">Flipin'<em>Choice</em></p>
+      <p class="property-url">flipinchoice.com</p>
+      <p class="property-tagline">"The coin doesn't decide. It reveals."</p>
+      <a class="property-visit" href="https://www.flipinchoice.com" target="_blank" rel="noopener">Visit Site →</a>
+    </div>
+    <div class="property-content">
+      <h3>What It Does</h3>
+      <p>Flipin' Choice is a coin flip decision-making tool grounded in the psychology of gut reaction. Users enter their two options, flip the coin and then pay attention to how they feel when it lands — relieved or disappointed. That emotional response reveals the decision they had already made subconsciously.</p>
+      <h3>What Makes It Different</h3>
+      <p>Flipin' Choice is not about letting chance decide — it is about using the structure of a coin flip to access the subconscious preferences that analytical thinking so often obscures. The name works on two levels — British slang for exasperation and literally what you do — capturing the universal experience of being genuinely stuck.</p>
+      <h3>Key Features</h3>
+      <ul class="feature-list">
+        <li>Dramatic animated coin flip experience</li>
+        <li>Gut reaction verdict system — relieved or disappointed</li>
+        <li>In-depth articles on decision psychology and intuition</li>
+        <li>Free to use — no account required</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Somnuscape -->
+  <div class="property">
+    <div class="property-meta">
+      <span class="property-icon">💭</span>
+      <span class="property-badge badge-live">Live Now</span>
+      <p class="property-name">Somnu<em>scape</em></p>
+      <p class="property-url">somnuscape.com</p>
+      <p class="property-tagline">"Where rest becomes a ritual."</p>
+      <a class="property-visit" href="https://www.somnuscape.com" target="_blank" rel="noopener">Visit Site →</a>
+    </div>
+    <div class="property-content">
+      <h3>What It Does</h3>
+      <p>Somnuscape is our most comprehensive property — a complete sleep and dream wellness platform combining a personalised sleep ritual generator, a dream pattern analyser, free and premium printable resources and an extensive library of evidence-based articles on sleep science, dream psychology and lucid dreaming.</p>
+      <h3>What Makes It Different</h3>
+      <p>Somnuscape treats sleep as the profound and complex experience it truly is — not just a hygiene checklist but a rich, nuanced dimension of human life that deserves genuine exploration. The platform features a beautiful light and dark mode, animated canvas design and tools that have been praised for their warmth and depth of insight.</p>
+      <h3>Key Features</h3>
+      <ul class="feature-list">
+        <li>AI sleep ritual generator — personalised bedtime routines</li>
+        <li>Dream pattern analyser with compassionate guidance</li>
+        <li>Free downloadable sleep and dream printables</li>
+        <li>Complete guides to sleep science, dreams and lucid dreaming</li>
+        <li>Light and dark mode with system preference detection</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Coming soon -->
+  <div style="width:100%;text-align:center;">
+    <p class="section-eyebrow">✦ Coming Soon</p>
+    <h2>In <em>Development</em></h2>
+  </div>
+
+  <div class="property coming" style="opacity:0.75;">
+    <div class="property-meta">
+      <span class="property-icon">😎</span>
+      <span class="property-badge badge-soon">Coming Soon</span>
+      <p class="property-name">Uncool<em>Rule</em></p>
+      <p class="property-url">uncoolrule.com</p>
+      <p class="property-tagline">"We Rule."</p>
+    </div>
+    <div class="property-content">
+      <h3>The Vision</h3>
+      <p>Uncool Rule is a celebration of the hobbies the world calls uncool but that devoted communities call home. Trainspotting, stamp collecting, vinyl records, RC models, metal detecting — every passionate niche hobby deserves a beautiful, respectful home on the internet.</p>
+      <h3>What It Will Offer</h3>
+      <ul class="feature-list">
+        <li>Free printable trackers and logs for popular niche hobbies</li>
+        <li>Community-focused content celebrating hobby culture</li>
+        <li>Curated affiliate recommendations for specialist equipment</li>
+        <li>Premium printable packs for serious enthusiasts</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="property coming" style="opacity:0.75;">
+    <div class="property-meta">
+      <span class="property-icon">🐾</span>
+      <span class="property-badge badge-soon">Coming Soon</span>
+      <p class="property-name">K9 Mind<em>Hub</em></p>
+      <p class="property-url">k9mindhub.com</p>
+      <p class="property-tagline">"Understanding the mind behind the wag."</p>
+    </div>
+    <div class="property-content">
+      <h3>The Vision</h3>
+      <p>K9 Mind Hub is a dedicated dog psychology and canine behaviour resource for devoted dog owners. Understanding why your dog behaves the way it does — and how to respond with knowledge, patience and care — transforms the relationship between owner and dog.</p>
+      <h3>What It Will Offer</h3>
+      <ul class="feature-list">
+        <li>Dog behaviour interpreter — AI-guided behaviour analysis</li>
+        <li>Free printable behaviour logs and anxiety diaries</li>
+        <li>In-depth guides to dog psychology and training science</li>
+        <li>Curated resources and specialist product recommendations</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="property coming" style="opacity:0.75;">
+    <div class="property-meta">
+      <span class="property-icon">🏥</span>
+      <span class="property-badge badge-soon">Coming Soon</span>
+      <p class="property-name">Somna<em>care</em></p>
+      <p class="property-url">somnacare.com</p>
+      <p class="property-tagline">"The right support, at the right time."</p>
+    </div>
+    <div class="property-content">
+      <h3>The Vision</h3>
+      <p>Somnacare is a verified directory of sleep specialists and mental wellness professionals — a trusted bridge between people experiencing sleep difficulties and the qualified practitioners who can help them most effectively.</p>
+      <h3>What It Will Offer</h3>
+      <ul class="feature-list">
+        <li>Verified directory of sleep specialists and therapists</li>
+        <li>Search by location, specialism and approach</li>
+        <li>Educational resources on when and how to seek professional help</li>
+        <li>Partner integration with Somnuscape for seamless referrals</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p class="footer-logo">Etherical <em>Media</em></p>
+    <ul class="footer-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="our-portfolio.html">Portfolio</a></li>
+      <li><a href="digital-wellness.html">Digital Wellness</a></li>
+      <li><a href="work-with-us.html">Work With Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+    </ul>
+    <p class="footer-copy">&copy; <span id="yr"></span> Etherical Media · ethericalmedia.com · Experiences Beyond the Ordinary</p>
+  </footer>
+</div>
+<script>
+  document.getElementById('yr').textContent=new Date().getFullYear();
+  (function(){const c=document.getElementById('starCanvas'),ctx=c.getContext('2d');let W,H,stars=[];function resize(){W=c.width=innerWidth;H=c.height=innerHeight;}function init(){resize();stars=Array.from({length:200},()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.3+0.1,speed:Math.random()*0.004+0.0005,phase:Math.random()*Math.PI*2,gold:Math.random()>0.88}));}function draw(t){ctx.clearRect(0,0,W,H);const g=ctx.createLinearGradient(0,0,0,H);g.addColorStop(0,'#0d1128');g.addColorStop(0.5,'#111530');g.addColorStop(1,'#0d1128');ctx.fillStyle=g;ctx.fillRect(0,0,W,H);const ng=ctx.createRadialGradient(W*.7,H*.2,0,W*.7,H*.2,W*.4);ng.addColorStop(0,'rgba(200,169,110,0.04)');ng.addColorStop(1,'transparent');ctx.fillStyle=ng;ctx.fillRect(0,0,W,H);stars.forEach(s=>{const a=0.1+0.8*(0.5+0.5*Math.sin(t*s.speed+s.phase));ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fillStyle=s.gold?`rgba(232,201,142,${a*.65})`:`rgba(200,212,232,${a})`;ctx.fill();});requestAnimationFrame(draw);}addEventListener('resize',resize);init();requestAnimationFrame(draw);})();
+</script>
+</body>
+</html>
